@@ -1,5 +1,14 @@
+html {
+  scroll-padding-top: 72px;
+}
+
 body {
   min-height: 100vh;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", monospace;
+  font-size: 14px;
 }
 
 .placeholder-box {
@@ -10,13 +19,42 @@ body {
   min-height: 320px;
 }
 
+.hero-carousel__image {
+  height: 380px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: var(--bs-border-radius);
+}
+
 .card-img-top {
   height: 220px;
   object-fit: cover;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--bs-box-shadow) !important;
 }
 
 .product-photo {
   width: 100%;
   max-height: 80vh;
   object-fit: cover;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
 }

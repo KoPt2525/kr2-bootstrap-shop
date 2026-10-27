@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты магазина фотографий OnlyFollowers.">
+  <title>Контакты — OnlyFollowers</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-light">
+  <header class="bg-primary text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+          <p class="h3 mb-1">OnlyFollowers</p>
+          <p class="mb-0 opacity-75">
+            Магазин фотографий из путешествий: котята, еда, машинки и достопримечательности
+          </p>
+        </div>
+
+        <div class="col-12 col-md-4 text-md-end mt-3 mt-md-0">
+          <span class="badge bg-light text-primary">КР №2 · Bootstrap</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">OnlyFollowers</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Переключить навигацию"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Каталог</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Товар</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Заявка</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacts.html">Контакты</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Категории
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="catalog.html#pets">Котята и щенки</a></li>
+              <li><a class="dropdown-item" href="catalog.html#food">Еда</a></li>
+              <li><a class="dropdown-item" href="catalog.html#cars">Машинки</a></li>
+              <li><a class="dropdown-item" href="catalog.html#places">Достопримечательности</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="index.html#popular">Популярное</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Контакты</li>
+      </ol>
+    </nav>
+
+    <h1 class="h2 mb-4">Контакты</h1>
+
+    <div class="row g-4">
+      <div class="col-12 col-lg-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-header">Как с нами связаться</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Телефон
+              <a href="tel:+79000000000">+7 (900) 000-00-00</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              E-mail
+              <a href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Время ответа
+              <span class="badge text-bg-success">до 1 рабочего дня</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Город
+              <span>Москва</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="card h-100 shadow-sm text-bg-primary">
+          <div class="card-body d-flex flex-column">
+            <h2 class="card-title h4">Хотите фото?</h2>
+            <p class="card-text">
+              Оставьте заявку — мы пришлём ссылку на оплату и файл в полном размере.
+            </p>
+            <div class="mt-auto d-flex flex-wrap gap-2">
+              <a class="btn btn-light" href="order.html">Оформить заявку</a>
+              <a class="btn btn-outline-light" href="catalog.html">Смотреть каталог</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-12 col-md-6">
+          <p class="mb-0">&copy; 2026 OnlyFollowers. Учебный проект, КР №2.</p>
+        </div>
+
+        <div class="col-12 col-md-6 text-md-end">
+          <a class="text-white text-decoration-none me-3" href="catalog.html">Каталог</a>
+          <a class="text-white text-decoration-none me-3" href="order.html">Заявка</a>
+          <a class="text-white text-decoration-none" href="contacts.html">Контакты</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -5,3 +5,18 @@ body {
 .placeholder-box {
   min-height: 240px;
 }
+
+.placeholder-image {
+  min-height: 320px;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.product-photo {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+}
